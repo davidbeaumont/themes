@@ -1,0 +1,300 @@
+/* HEADER */
+
+.site-description {
+    color: #326238 !important;
+}
+
+.ul{
+    height: 80px !important;
+}
+
+.main-navigation .main-nav ul li a {
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+}
+
+.inside-header {
+    padding: 0px 0px 0px 30px !important;
+}
+
+/* pour afficher le lien "admin" en 2eme position */
+#menu-item-96 {
+    display: flex;
+    order: 2; 
+}
+
+/* MAIN */
+
+.h1-accueil {
+    margin-top: 70px;
+}
+
+.marge-sous-titre {
+    margin-bottom: 0;
+}
+
+.bloc-text-1 {
+    padding-bottom: 70px !important;
+}
+
+.bloc_image {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+.h2-accueil {
+    padding-top: 90px !important;
+    margin-bottom: 0;
+}
+
+.wp-block-button__link {
+    width: 198px;
+}
+
+/* TEMOIGNAGE DANS MAIN */
+
+.wp-block-columns {
+    margin-bottom: 0 !important;
+}
+
+.bloc_temoignage {
+    padding-bottom: 70px;
+}
+
+.temoignage_h4 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+
+.temoignage_card {
+    width: 431px;
+    height: 195px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* NOUS RENCONTRER */
+
+.tableau_titre {
+    margin-top: 80px;
+}
+
+.tableau_equipe {
+    padding-bottom: 0;
+}
+
+.h3-nous-contacter {
+    margin-top: 60px;
+}
+
+.wpforms-submit-container {
+    display: flex;
+    justify-content: center;
+}
+
+#wpforms-submit-306 {
+    background-color: #E0B9B4;
+    width: 198px;
+    height: 55px;
+}
+
+#wpforms-submit-306:hover {
+    background-color: #C02E44;
+}
+
+.formulaire {
+    margin-top: 0 !important;
+    margin-bottom: 80px !important;
+}
+
+.wpforms-field-large {
+    height: 70px !important;
+    border-radius: 5px !important;
+    border: none !important;
+    margin-top: 10px;
+}
+
+.wpforms-field-medium {
+    height: 237px !important;
+    border-radius: 5px !important;
+    border: none !important;
+    margin-top: 10px;
+}
+
+.fleur {
+    position: relative;
+    top: 170px; left: 110px;
+}
+
+/* COMMANDER */
+
+.h2-commander {
+    padding-top: 70px !important;
+    margin-bottom: 0;
+}
+
+.bloc_article {
+    padding: 0;
+}
+
+.bloc_4_produits {
+    display: flex;
+    justify-content: center;
+}
+
+.colonne_produit {
+    max-width: 393px;
+}
+
+.formulaire_commander {
+    display: flex;
+    margin-bottom: 38px;
+}
+
+.formulaire_commander input {
+    height: 71px;
+    width: 100%;
+    border-radius: 7px !important;
+    border: none !important;
+    margin-top: 10px;
+}
+
+.h3-formulaire {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 38px;
+}
+
+.colonne_gauche_formulaire {
+    width: 50%;
+    border-right: 2px solid white;
+    padding-right: 38px;
+}
+
+.colonne_droite_formulaire {
+    width: 50%;
+    padding-left: 38px;
+}
+
+.footer_formulaire p {
+    display: flex;
+    justify-content: center;
+}
+
+.bouton_commander {
+    height: 55px;
+    width: 198px;
+    border-radius: 5px;
+}
+
+/* INPUT +/- */
+
+#input_quantity {
+    padding: 0 !important;
+    border-radius: 5px !important;
+    max-width: 75px;
+    height: 58px;
+    border: none !important;
+    color: black !important;
+    font-size: 20px;
+    padding-left: 12px !important;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group p {
+    margin: 0;
+}
+
+.input-group-buttons p {
+    margin-bottom: 0;
+    height: 58px;
+}
+
+#plusButton {
+    position: relative;
+    background-color: #DC9F96;
+    top: 0; left: -30px; 
+    height: 29px;
+    width: 30px;
+    border-radius: 0 5px 0 0;
+    padding: 0;
+    margin: 0;
+}
+
+#minusButton {
+    position: relative;
+    background-color: #DC9F96;
+    top: 0; left: -30px; 
+    height: 29px;
+    width: 30px;
+    border-radius: 0 0 5px 0;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid white;
+}
+
+#minusButton:hover {
+    background-color: #C02E44;
+}
+
+#plusButton:hover {
+    background-color: #C02E44;
+}
+
+/* FOOTER */
+
+.site-footer {
+    background-color: white;
+    height: 60px;
+}
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+
+    .colonne_gauche_formulaire {
+        border-right: 0;
+        padding-right: 0;
+    }
+
+    .formulaire_commander {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 38px;
+    }
+
+    .colonne_droite_formulaire {
+        padding-left: 0;
+    }
+}
+
+/* Small devices (Phones, less/equal than 375px) */
+@media (max-width: 375px) {
+
+    .h1-accueil {
+        font-weight: 700 !important;
+    }
+    .h2-commander {
+        font-size: 29px !important;
+    }
+    .entry-content h2 {
+        font-weight: 700 !important;
+    }
+    .wp-block-image {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .colonne_gauche_formulaire,
+    .colonne_droite_formulaire {
+        width: 100%;
+    }
+}
